@@ -13,7 +13,7 @@ class addTaskViewController: UIViewController {
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBAction func saveButton(sender : Any){
         
-        print("Saving task...")
+        print("Saving tasks...")
         
         let task = Task(name: textTaskName.text ?? "",
                         time: datePicker.date)
